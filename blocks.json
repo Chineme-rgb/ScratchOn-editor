@@ -1,0 +1,108 @@
+{
+  "categories": [
+    {
+      "name": "Motion",
+      "blocks": [
+        {
+          "id": "motion_move",
+          "opcode": "move_steps",
+          "label": "move 10 steps",
+          "color": "#4C97FF",
+          "type": "command"
+        },
+        {
+          "id": "motion_turn",
+          "opcode": "turn_right",
+          "label": "turn 15 degrees",
+          "color": "#4C97FF",
+          "type": "command"
+        },
+        {
+          "id": "motion_goto",
+          "opcode": "go_to_xy",
+          "label": "go to x: y:",
+          "color": "#4C97FF",
+          "type": "command"
+        }
+      ]
+    },
+    {
+      "name": "Looks",
+      "blocks": [
+        {
+          "id": "looks_say",
+          "opcode": "say_message",
+          "label": "say Hello!",
+          "color": "#9966FF",
+          "type": "command"
+        },
+        {
+          "id": "looks_costume",
+          "opcode": "switch_costume",
+          "label": "switch costume to",
+          "color": "#9966FF",
+          "type": "command"
+        },
+        {
+          "id": "looks_color",
+          "opcode": "change_color_effect",
+          "label": "change color effect by 25",
+          "color": "#9966FF",
+          "type": "command"
+        }
+      ]
+    },
+    {
+      "name": "MetaBlocks",
+      "blocks": [
+        {
+          "id": "meta_transcend",
+          "opcode": "transcend_wall",
+          "label": "transcendWall()",
+          "color": "#FF6680",
+          "type": "custom"
+        },
+        {
+          "id": "meta_manifest",
+          "opcode": "manifest_existence",
+          "label": "manifestExistence()",
+          "color": "#FF6680",
+          "type": "custom"
+        },
+        {
+          "id": "meta_rewrite",
+          "opcode": "rewrite_reality",
+          "label": "rewriteReality()",
+          "color": "#FF6680",
+          "type": "custom"
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "blocks": [
+        {
+          "id": "event_flag",
+          "opcode": "when_flag_clicked",
+          "label": "when green flag clicked",
+          "color": "#FFD500",
+          "type": "hat"
+        },
+        {
+          "id": "event_broadcast",
+          "opcode": "broadcast_message",
+          "label": "broadcast [message]",
+          "color": "#FFD500",
+          "type": "command"
+        },
+        {
+          "id": "event_receive",
+          "opcode": "when_receive_message",
+          "label": "when I receive [message]",
+          "color": "#FFD500",
+          "type": "hat"
+        }
+      ]
+    }
+  ]
+}
