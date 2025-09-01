@@ -1,0 +1,11 @@
+.block {
+  background-color: #eee;
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin: 4px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: grab;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
