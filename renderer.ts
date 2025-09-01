@@ -1,3 +1,11 @@
+type Block = {
+  id: string;
+  opcode: string;
+  label: string;
+  color: string;
+  type: string;
+};
+
 function createSVGBlock(block: Block): HTMLElement {
   const svgNS = "http://www.w3.org/2000/svg";
   const svg = document.createElementNS(svgNS, "svg");
