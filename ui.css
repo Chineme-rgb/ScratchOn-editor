@@ -1,0 +1,17 @@
+#top-bar {
+  background-color: #6a0dad; /* Deep purple */
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#save-btn {
+  background-color: #ffffff;
+  color: #6a0dad;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
