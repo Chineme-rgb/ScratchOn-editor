@@ -32,16 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       categoryDiv.innerHTML = `<h3>${category.name}</h3>`;
 
       category.blocks.forEach((block) => {
-        const blockEl = document.createElement("div");
-        blockEl.className = "block";
-        blockEl.textContent = block.label;
-        blockEl.style.backgroundColor = block.color;
-        blockEl.draggable = true;
-
-        blockEl.addEventListener("dragstart", (e) => {
-          e.dataTransfer.setData("text/plain", block.label);
-        });
-
+        const blockEl = createSVGBlock(block);
         categoryDiv.appendChild(blockEl);
       });
 
