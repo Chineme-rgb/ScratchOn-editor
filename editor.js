@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const blockEl = document.createElement("div");
         blockEl.className = "block";
         blockEl.textContent = block.label;
+        blockEl.style.backgroundColor = block.color;
         blockEl.draggable = true;
 
         blockEl.addEventListener("dragstart", (e) => {
