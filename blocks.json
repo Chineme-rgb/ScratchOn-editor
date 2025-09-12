@@ -102,7 +102,16 @@
           "color": "#FFD500",
           "type": "hat"
         }
-      ]
+      {
+        "name": "Control",
+        "blocks": [
+          {
+          "id": "control_wait",
+          "opcode": "wait_seconds",
+            "label": "wait 1 seconds",
+            "color": "FFAB19",
+            "type": "command"
+          }
     }
   ]
 }
